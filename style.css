@@ -1,0 +1,230 @@
+* {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/*display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;*/
+
+body {
+    height: 100vh;
+    background: #0E0C38;
+}
+
+img {
+    width: 700px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+div#jeff {
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    margin-top: 0px;
+
+}
+
+.portifolio {
+    color: white;
+    font-family: 'Marck Script', cursive;
+    font-size: 15px;
+    margin-top: 10px;
+    align-items: flex-start;
+    margin-left: 120px;
+}
+
+.nometexto h3 {
+    font-family: 'Poppins';
+    color: white;
+}
+
+.nometexto h1 {
+    font-size: 70px;
+    font-family: 'Poppins';
+    line-height: 60px;
+}
+
+.nometexto h3 {
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+
+.nometexto {
+    height: 0px;
+    margin-left: 120px;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.vermelho h3 {
+    width: 150px;
+    height: 50px;
+    background-color: #FF0513;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+    border-radius: 60px;
+}
+
+.transparente h3 {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+    img {
+        width: 600px;
+        margin-right: 25px;
+        margin-top: 0px;
+    }
+    .portifolio {
+        color: white;
+        font-family: 'Marck Script', cursive;
+        font-size: 15px;
+        margin-top: 10px;
+        align-items: flex-start;
+        margin-left: 70px;
+    }
+
+    .nometexto {
+        height: 0px;
+        margin-left: 70px;
+        color: white;
+        margin-top: 70px;
+    
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    img {
+        width: 400px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    
+    .portifolio {
+        color: white;
+        font-family: 'Marck Script', cursive;
+        font-size: 15px;
+        margin-top: 10px;
+        align-items: flex-start;
+        margin-left: 70px;
+    }
+
+    .nometexto h1 {
+        font-size: 40px;
+        font-family: 'Poppins';
+        line-height: 40px;
+    }
+    
+    .nometexto h3 {
+        font-size: 17px;
+        font-weight: 300;
+        font-family: 'Poppins';
+    }
+    
+    .nometexto {
+        height: 0px;
+        margin-left: 70px;
+        color: white;
+        margin-top: 70px;
+    
+    }
+    
+    .vermelho h3 {
+        width: 150px;
+        height: 50px;
+        background-color: #FF0513;
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .transparente h3 {
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        margin-top: 30px;
+        margin-left: 0px;
+        border: 2px solid white;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    img {
+        width: 400px;
+        margin-right: 10px;
+        margin-top: 300px;
+    }
+    
+    .portifolio {
+        color: white;
+        font-family: 'Marck Script', cursive;
+        font-size: 15px;
+        margin-top: 10px;
+        align-items: flex-start;
+        margin-left: 70px;
+    }
+
+    .nometexto h1 {
+        font-size: 40px;
+        font-family: 'Poppins';
+        line-height: 40px;
+    }
+    
+    .nometexto h3 {
+        font-size: 17px;
+        font-weight: 300;
+        font-family: 'Poppins';
+    }
+    
+    .nometexto {
+        height: 0px;
+        margin-left: 70px;
+        color: white;
+        margin-top: 70px;
+    
+    }
+    
+    .vermelho h3 {
+        width: 150px;
+        height: 50px;
+        background-color: #FF0513;
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        float: left;
+    }
+    
+    .transparente h3 {
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        margin-top: 10px;
+        margin-left: 0px;
+        border: 2px solid white;
+    }
+}
