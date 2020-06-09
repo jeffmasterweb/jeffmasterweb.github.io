@@ -69,13 +69,15 @@ section {
     color: white;
     margin-top: 30px;
     border-radius: 60px;
-    border: none white;
+    border: 2px solid #FF0513;
     cursor: pointer;
     font-size: 17px;
     font-weight: 300;
     font-family: 'Poppins';
     margin-right: 15px;
     outline: none;
+
+    transition: 400ms;
 }
 
 .bt2 {
@@ -90,6 +92,20 @@ section {
     font-family: 'Poppins';
     color: white;
     outline: none;
+
+    transition: 400ms;
+}
+
+.bt1:hover {
+    background-color: rgb(218, 172, 174);
+    border: 2px solid rgb(218, 172, 174);
+}
+
+.bt2:hover {
+    background-color: rgb(48, 44, 117);
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    border: 2px solid rgb(48, 44, 117);
 }
 
 .redesocial {
@@ -99,13 +115,17 @@ section {
 
  i {
     padding: 0px;
-    margin-inline-end: 20px;
+    margin-right: 20px;
     color: white;
+}
+
+i:hover {
+    color: white;
+    opacity: 0.5;
 }
 
 a {
     text-decoration: none;
-    line-clamp: 10px;
 }
 
 
@@ -136,15 +156,24 @@ a {
     }
 
     .nometexto {
-        width: 88%;
+        width: 90%;
         margin: 0 auto;
         margin-top: 40px;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .nometexto h1 {
-        font-size: 60px;
+        font-size: 52px;
         font-family: 'Poppins';
         line-height: 50px;
     }
 
+    .bt1 {
+        margin-right: 0px;
+        margin-bottom: 5px;
+        outline: none;
+    }
 }
